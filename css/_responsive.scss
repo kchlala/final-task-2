@@ -1,0 +1,109 @@
+@media(max-width:768px){
+
+
+.section-1{
+
+    h2{
+        font-size: 25px;
+        top: 13%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .road{
+        top: 18%;
+    }
+    .car{
+        padding: 150px 0px 60px 0px;
+    }
+    .logo{
+        width: 80px;
+        left: 70%;
+        top: 16.5%;
+    }
+    .track{
+        top: 38%;
+    }
+    a{
+        top:42% ;
+    }
+}
+.section-2{
+    width: 100%;
+    .box-3, .box-2, .box-1{
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        background-size: 550px;
+        
+    }
+    p{
+        width: 90%;
+        margin: auto;
+    }
+}
+.section-3{
+    background-image: none;
+    padding-bottom: 0px;
+    
+    .section-3-div{
+        width: 95%;   
+        margin: auto;
+        .sign{
+            width: 100%;
+        }
+.numbers{
+    width: 100%;
+    .number{
+   width: 50%;
+        .stock{
+            
+            width: 60%;
+        }
+        .iconcar{
+            width: 40%;
+         float: left;
+        }
+        .dealer{
+            width: 60%;
+        }
+        .chat{
+        width: 30%;
+        }
+}
+    }
+}
+}
+.section-4{
+    width: 98%;
+    margin: auto;
+    .text{
+        h1{
+            font-size: 40px;
+        }
+    }
+    .four-cars{   
+    .car{
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    }
+}
+.section-5{
+    .general{
+        .chats-1{
+            display: none;
+        }
+        .chats-3{
+            display: none;
+        }
+    }
+}
+.section-6{
+    .text{
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+}

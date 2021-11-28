@@ -1,0 +1,526 @@
+.befaft{
+    position: relative;
+    padding: 16px;
+    
+}
+.befaft::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1.2px;
+    background-color: rgb(228, 2, 2);
+    left: 50%;
+    transform: translate(-50%);    
+    transition: 0.5s ease-in-out;         
+}
+.befaft::after{
+    @extend .befaft::before;
+    top: 23px;
+    width: 100px;
+   } 
+
+.section-1{
+    background-image: url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/revslider/cardealer-slider2/010f2-75b06-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // size: 100%;
+h2{
+    position: absolute;
+    left: 10%;
+    top:17%;
+    color: white;
+    font-size: 50px;
+}
+h1{
+    
+    color: white;
+    font-size: 120px;
+    // display: inline-block;
+    font-weight: bolder;
+}
+.car{
+    padding: 220px 0px 100px 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.track{
+    position: absolute;
+    left: 60%;
+    top: 73%;
+    z-index: 1;
+}
+
+.logo{
+    // width: 100%;
+    position: absolute;
+    left: 73%;
+    top:23%;
+}
+
+.road{
+    position: absolute;
+    left: 10%;
+    top: 26%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 30px;
+    background-color: black;
+    font-size: 14px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        color: black;
+        background-color: white;
+    }
+  }
+}
+.section-2{
+    width: 82%;
+    margin: auto;
+    padding: 70px 0px;
+    .box-1 {
+        background-color: rgb(247, 247, 247);
+        text-align: center;
+        padding: 23px 10px 13px 10px;
+        margin: 0px 15px;
+        position: relative;
+        z-index: 1;
+        background-position: center;     
+        &:hover{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-2.jpg);
+             &::before{
+                 height: 45px;
+             }            
+             a,i,h5,p{
+                 color: white;
+             }
+        }
+        &::before{
+            transition: 0.25s ease-in-out;
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 0px;
+            background-color: rgb(182, 3, 3);
+            left: 0px; 
+            z-index: -1;                
+        }  
+        h5{
+            transition: 0.25s ease-in-out;
+            font-size: 17px;
+            padding: 23px 0px;
+            color: rgb(57, 57, 57);
+        }
+        p{           
+             transition: 0.25s ease-in-out;
+            color: rgb(165, 165, 165);
+            font-size: 14px;
+            padding: 10px 0px 20px 0px;
+        }
+        a{
+            z-index: 1;
+            width: 100%;
+            text-decoration: none;
+            color: rgb(172, 171, 171);
+            font-size: 14px;
+            transition: 0.3s ease-in-out;
+        }
+        i{
+            transition: 0.25s ease-in-out;
+            font-size: 50px;
+            color: rgb(211, 3, 3);
+            padding-bottom: 10px;
+        }
+        
+    }   
+    .box-2{
+        @extend .box-1;
+         &:hover{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/02.jpg);
+         }
+       }  
+    .box-3{
+        @extend .box-1;
+        &:hover{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/03.jpg);
+
+        }
+    }
+}
+.section-3{
+    padding-bottom: 25rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/04-5.jpg?id=2095);
+    .section-3-div{
+    width: 80%;
+    margin: auto;
+    .sign{
+        width: 50%;
+        h4{
+            padding-bottom: 15px ;
+            font-size: 22px;
+            color: rgb(53, 53, 53);
+        }
+        .italic{
+            font-style: italic;
+            color: rgb(171, 170, 170);
+            font-size: 13px;
+            line-height: 28px;
+        }
+        h5{
+            color: rgb(216, 3, 3);
+            font-size: 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .kevin{
+            color: rgb(167, 167, 167);
+            font-size: 14px;
+        }
+    }
+    .numbers{
+        width: 41.6%;
+        .number{
+            width: 50%;
+            padding: 25px;
+            border-bottom: 0.01mm solid rgb(186, 185, 185);
+            border-left: 0.01mm solid rgb(186, 185, 185);
+            h5{
+                font-size: 12px;          
+            }
+            b{
+                font-weight: 600;
+                font-size: 40px;
+                color: rgb(227, 0, 0);
+                line-height: 35px;
+            }
+            i{ 
+                font-size: 40px;
+                color: rgb(160, 160, 160);
+            }
+            .stock{
+                text-align: right;
+                width: 60%;
+            }
+            .iconcar{
+                text-align: center;
+                width: 33%;
+            }
+            .chat{
+                width: 26%;
+            }
+            .dealer{
+                text-align: left;
+                width: 55%;
+            }
+            }
+        }
+    }
+}
+    .section-4{
+        width: 82%;
+        margin: auto;
+        padding: 60px 0px;
+        &:hover{
+            .befaft::before{
+                width: 100px;
+            }
+            .befaft::after{
+                width: 50px;
+            }
+        }
+        .text{       
+            text-align: center;
+            span{
+                color: rgb(152, 152, 152);
+                font-size: 14px;   
+            }
+            h1{
+                color: rgb(55, 55, 55);
+            }
+        } 
+
+.four-cars{
+    padding: 50px 0px;
+    .car{
+        width: 23%;
+        margin: 0px 10px;
+        &:hover{
+            .pictures{
+            .calendar{
+                bottom: 0%;
+            }
+            .red{
+                top: -10%;
+            }
+        }
+        .text-2{
+             .lines::before{
+            width: 50px;
+            background-color: rgba(219,45,46,.8) ;
+        }
+        .lines::after{
+            width: 28px;
+        }
+       
+    }
+}
+        img{
+            width: 100%;
+        }
+        .pictures{
+            position: relative;
+            overflow: hidden;
+            .calendar{
+                text-align: center;
+                width: 100%;
+                position: absolute;
+                background-color: white;
+                left: 0%;
+                bottom: -20%;
+                padding: 7px;
+                transition: 0.3s ease-in-out;
+                z-index: 1;
+                span{
+                    color: rgb(154, 153, 153);
+                    font-size: 14px;
+                    padding: 0px 5px;
+                }
+                i{
+                    transition: 0.9s ease-in-out;
+                    color: rgb(154, 153, 153);
+                    font-size: 14px;
+                }
+            }       
+            .red{      
+                transition: 0.5s ease-in-out;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: -100%;
+                left: 0%;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(219, 45, 45, 0.68) ;
+             i{
+                 transition: 0.3s ease-in-out;
+                 color: white;
+                 font-size: 15px;
+                 padding: 8px;
+                 border: 2px solid white;
+                 border-radius: 50%;
+                 margin: 0px 3px;
+                 &:hover{
+                     color: rgba(219,45,46,.8);
+                     background-color: white;
+                 }
+             }
+            }
+        .sold{
+            position: absolute;
+            width: 25%;
+            left: 70%;
+            top: 70%;
+        }
+    }
+        .text-2{
+            text-align: center;  
+            background-color: rgb(247, 247, 247);
+            padding: 17px 0px;
+            .lines{
+                position: relative;
+                padding: 14px 0px;
+            }
+            .lines::before{
+                position: absolute;
+                content: "";
+                width: 28px;
+                height: 1.2px;
+                background-color: black;
+                left: 50%;
+                transform: translate(-50%);    
+                transition: 0.5s ease-in-out;     
+                top: 10px;    
+            }
+            .lines::after{
+                @extend .lines::before;
+                top: 15px;
+                width: 50px;
+               }  
+        a{
+            text-decoration: none;
+            color: rgb(215, 2, 2);
+            display: inline-block;
+            font-weight: 500;
+            letter-spacing: 0.3px;   
+        }
+        span{
+            font-weight: 650;
+            font-size: 15px;
+            letter-spacing: 0.3px; 
+        }
+        }
+    }
+}
+
+}
+    
+   .section-5{
+       padding: 70px 0px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.844),rgba(0, 0, 0, 0.413))  ,  url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-7.jpg?id=1896);
+  overflow: hidden;
+       &:hover{
+        .befaft::before{
+            width: 100px;
+        }
+        .befaft::after{
+            width: 50px;
+        }
+    }
+    .text{       
+        text-align: center;
+        padding-bottom: 50px;
+        span{
+            color: white;
+            font-size: 14px;   
+        }
+        h1{
+            color: white;
+        }
+    }
+       .general{
+              width: 100%; 
+              display: flex;
+       .chats{
+       .chat {
+        position: relative;
+        padding:30px;
+        background: #db2d2e;
+        i{
+            color: white;
+            font-size: 50px;
+        }
+        p{
+            color: white;
+            font-size: 14px ;
+        }
+      }  
+        .chat::after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+content: "";
+border-width: 20px 20px 0 0;
+border-color: #db2d2e transparent transparent transparent;
+position: absolute;
+left: 40px;
+bottom: -20px;
+        }
+        .about{
+            padding-top: 50px;
+            h6{
+                color: white;
+                padding-left: 15px;
+                display: inline-block;
+            }
+                span{
+                    color: white;
+                    font-size: 14px;            
+                }
+           
+            img{
+                width: 100px;
+                border-radius: 50%;
+                border: 2px solid #db2d2e ;
+            }
+        }
+      }  
+      .chats-1{
+        @extend .chats;
+       opacity: 0.25;
+       margin-left: -10%;
+       }  
+       .chats-2{
+        @extend .chats;
+        margin: 0px 20px;
+       }  
+       .chats-3{
+        @extend .chats;
+       opacity: 0.3;
+       margin-right: -10%;
+       }  
+    }
+   }
+   .section-6{
+    //    position: relative;
+       padding: 70px 0px;
+    &:hover{
+        .befaft::before{
+            width: 100px;
+        }
+        .befaft::after{
+            width: 50px;
+        }
+    }
+    .text{       
+        text-align: center;
+        padding-bottom: 50px;
+        span{
+            color: rgb(135, 135, 135);
+            font-size: 14px;   
+        }
+        h1{
+            color: rgb(50, 49, 49);
+        }
+    }
+    .eight-boxes{
+        .box{
+            margin: 0px 25px;
+            padding-bottom: 40px;
+            text-align: center;
+            i{
+                font-size: 30px;
+                color: rgb(142, 142, 142);
+                padding: 25px;
+                border-radius: 50%;
+                background-color: rgb(243, 243, 243);
+            }                
+                h6{
+                    position: relative;
+                    font-size: 15.5px;
+                    display: inline-block;
+                    font-weight: 600;
+                    padding: 17px 0px;
+                }
+                h6::after{
+                    content: "";
+                    position: absolute;
+                    height: 2px;
+                    width: 20px;
+                    background-color: rgb(215, 2, 2);
+                    left: 50%;
+                    top: 85%;
+                    transform: translate(-50%,80%);
+                }  
+            
+                p{
+                    color: rgb(171, 170, 170);
+                    font-size: 14px;
+                } 
+        }
+    }
+   }
+
+   @import '_responsive';

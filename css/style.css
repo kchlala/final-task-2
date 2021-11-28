@@ -1,0 +1,692 @@
+.befaft {
+  position: relative;
+  padding: 16px;
+}
+
+.befaft::before, .befaft::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 1.2px;
+  background-color: #e40202;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.befaft::after {
+  top: 23px;
+  width: 100px;
+}
+
+.section-1 {
+  background-image: url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/revslider/cardealer-slider2/010f2-75b06-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 h2 {
+  position: absolute;
+  left: 10%;
+  top: 17%;
+  color: white;
+  font-size: 50px;
+}
+
+.section-1 h1 {
+  color: white;
+  font-size: 120px;
+  font-weight: bolder;
+}
+
+.section-1 .car {
+  padding: 220px 0px 100px 0px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-1 .track {
+  position: absolute;
+  left: 60%;
+  top: 73%;
+  z-index: 1;
+}
+
+.section-1 .logo {
+  position: absolute;
+  left: 73%;
+  top: 23%;
+}
+
+.section-1 .road {
+  position: absolute;
+  left: 10%;
+  top: 26%;
+}
+
+.section-1 a {
+  text-decoration: none;
+  color: white;
+  padding: 7px 30px;
+  background-color: black;
+  font-size: 14px;
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  z-index: 1;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.section-1 a:hover {
+  color: black;
+  background-color: white;
+}
+
+.section-2 {
+  width: 82%;
+  margin: auto;
+  padding: 70px 0px;
+}
+
+.section-2 .box-1, .section-2 .box-2, .section-2 .box-3 {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 23px 10px 13px 10px;
+  margin: 0px 15px;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+}
+
+.section-2 .box-1:hover, .section-2 .box-2:hover, .section-2 .box-3:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-2.jpg);
+}
+
+.section-2 .box-1:hover::before, .section-2 .box-2:hover::before, .section-2 .box-3:hover::before {
+  height: 45px;
+}
+
+.section-2 .box-1:hover a, .section-2 .box-2:hover a, .section-2 .box-3:hover a, .section-2 .box-1:hover i, .section-2 .box-2:hover i, .section-2 .box-3:hover i, .section-2 .box-1:hover h5, .section-2 .box-2:hover h5, .section-2 .box-3:hover h5, .section-2 .box-1:hover p, .section-2 .box-2:hover p, .section-2 .box-3:hover p {
+  color: white;
+}
+
+.section-2 .box-1::before, .section-2 .box-2::before, .section-2 .box-3::before {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  background-color: #b60303;
+  left: 0px;
+  z-index: -1;
+}
+
+.section-2 .box-1 h5, .section-2 .box-2 h5, .section-2 .box-3 h5 {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  font-size: 17px;
+  padding: 23px 0px;
+  color: #393939;
+}
+
+.section-2 .box-1 p, .section-2 .box-2 p, .section-2 .box-3 p {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  color: #a5a5a5;
+  font-size: 14px;
+  padding: 10px 0px 20px 0px;
+}
+
+.section-2 .box-1 a, .section-2 .box-2 a, .section-2 .box-3 a {
+  z-index: 1;
+  width: 100%;
+  text-decoration: none;
+  color: #acabab;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section-2 .box-1 i, .section-2 .box-2 i, .section-2 .box-3 i {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  font-size: 50px;
+  color: #d30303;
+  padding-bottom: 10px;
+}
+
+.section-2 .box-2:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/02.jpg);
+}
+
+.section-2 .box-3:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2013/06/03.jpg);
+}
+
+.section-3 {
+  padding-bottom: 25rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/04-5.jpg?id=2095);
+}
+
+.section-3 .section-3-div {
+  width: 80%;
+  margin: auto;
+}
+
+.section-3 .section-3-div .sign {
+  width: 50%;
+}
+
+.section-3 .section-3-div .sign h4 {
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: #353535;
+}
+
+.section-3 .section-3-div .sign .italic {
+  font-style: italic;
+  color: #abaaaa;
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.section-3 .section-3-div .sign h5 {
+  color: #d80303;
+  font-size: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.section-3 .section-3-div .sign .kevin {
+  color: #a7a7a7;
+  font-size: 14px;
+}
+
+.section-3 .section-3-div .numbers {
+  width: 41.6%;
+}
+
+.section-3 .section-3-div .numbers .number {
+  width: 50%;
+  padding: 25px;
+  border-bottom: 0.01mm solid #bab9b9;
+  border-left: 0.01mm solid #bab9b9;
+}
+
+.section-3 .section-3-div .numbers .number h5 {
+  font-size: 12px;
+}
+
+.section-3 .section-3-div .numbers .number b {
+  font-weight: 600;
+  font-size: 40px;
+  color: #e30000;
+  line-height: 35px;
+}
+
+.section-3 .section-3-div .numbers .number i {
+  font-size: 40px;
+  color: #a0a0a0;
+}
+
+.section-3 .section-3-div .numbers .number .stock {
+  text-align: right;
+  width: 60%;
+}
+
+.section-3 .section-3-div .numbers .number .iconcar {
+  text-align: center;
+  width: 33%;
+}
+
+.section-3 .section-3-div .numbers .number .chat {
+  width: 26%;
+}
+
+.section-3 .section-3-div .numbers .number .dealer {
+  text-align: left;
+  width: 55%;
+}
+
+.section-4 {
+  width: 82%;
+  margin: auto;
+  padding: 60px 0px;
+}
+
+.section-4:hover .befaft::before, .section-4:hover .befaft::after {
+  width: 100px;
+}
+
+.section-4:hover .befaft::after {
+  width: 50px;
+}
+
+.section-4 .text {
+  text-align: center;
+}
+
+.section-4 .text span {
+  color: #989898;
+  font-size: 14px;
+}
+
+.section-4 .text h1 {
+  color: #373737;
+}
+
+.section-4 .four-cars {
+  padding: 50px 0px;
+}
+
+.section-4 .four-cars .car {
+  width: 23%;
+  margin: 0px 10px;
+}
+
+.section-4 .four-cars .car:hover .pictures .calendar {
+  bottom: 0%;
+}
+
+.section-4 .four-cars .car:hover .pictures .red {
+  top: -10%;
+}
+
+.section-4 .four-cars .car:hover .text-2 .lines::before, .section-4 .four-cars .car:hover .text-2 .lines::after {
+  width: 50px;
+  background-color: rgba(219, 45, 46, 0.8);
+}
+
+.section-4 .four-cars .car:hover .text-2 .lines::after {
+  width: 28px;
+}
+
+.section-4 .four-cars .car img {
+  width: 100%;
+}
+
+.section-4 .four-cars .car .pictures {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-4 .four-cars .car .pictures .calendar {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  left: 0%;
+  bottom: -20%;
+  padding: 7px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.section-4 .four-cars .car .pictures .calendar span {
+  color: #9a9999;
+  font-size: 14px;
+  padding: 0px 5px;
+}
+
+.section-4 .four-cars .car .pictures .calendar i {
+  -webkit-transition: 0.9s ease-in-out;
+  transition: 0.9s ease-in-out;
+  color: #9a9999;
+  font-size: 14px;
+}
+
+.section-4 .four-cars .car .pictures .red {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -100%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(219, 45, 45, 0.68);
+}
+
+.section-4 .four-cars .car .pictures .red i {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0px 3px;
+}
+
+.section-4 .four-cars .car .pictures .red i:hover {
+  color: rgba(219, 45, 46, 0.8);
+  background-color: white;
+}
+
+.section-4 .four-cars .car .pictures .sold {
+  position: absolute;
+  width: 25%;
+  left: 70%;
+  top: 70%;
+}
+
+.section-4 .four-cars .car .text-2 {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 17px 0px;
+}
+
+.section-4 .four-cars .car .text-2 .lines {
+  position: relative;
+  padding: 14px 0px;
+}
+
+.section-4 .four-cars .car .text-2 .lines::before, .section-4 .four-cars .car .text-2 .lines::after {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 1.2px;
+  background-color: black;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  top: 10px;
+}
+
+.section-4 .four-cars .car .text-2 .lines::after {
+  top: 15px;
+  width: 50px;
+}
+
+.section-4 .four-cars .car .text-2 a {
+  text-decoration: none;
+  color: #d70202;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.section-4 .four-cars .car .text-2 span {
+  font-weight: 650;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.section-5 {
+  padding: 70px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.844)), to(rgba(0, 0, 0, 0.413))), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-7.jpg?id=1896);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.413)), url(https://q4p3y7t4.rocketcdn.me/wp-content/uploads/2017/01/01-7.jpg?id=1896);
+  overflow: hidden;
+}
+
+.section-5:hover .befaft::before, .section-5:hover .befaft::after {
+  width: 100px;
+}
+
+.section-5:hover .befaft::after {
+  width: 50px;
+}
+
+.section-5 .text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section-5 .text span {
+  color: white;
+  font-size: 14px;
+}
+
+.section-5 .text h1 {
+  color: white;
+}
+
+.section-5 .general {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-5 .general .chats .chat, .section-5 .general .chats-1 .chat, .section-5 .general .chats-2 .chat, .section-5 .general .chats-3 .chat {
+  position: relative;
+  padding: 30px;
+  background: #db2d2e;
+}
+
+.section-5 .general .chats .chat i, .section-5 .general .chats-1 .chat i, .section-5 .general .chats-2 .chat i, .section-5 .general .chats-3 .chat i {
+  color: white;
+  font-size: 50px;
+}
+
+.section-5 .general .chats .chat p, .section-5 .general .chats-1 .chat p, .section-5 .general .chats-2 .chat p, .section-5 .general .chats-3 .chat p {
+  color: white;
+  font-size: 14px;
+}
+
+.section-5 .general .chats .chat::after, .section-5 .general .chats-1 .chat::after, .section-5 .general .chats-2 .chat::after, .section-5 .general .chats-3 .chat::after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  content: "";
+  border-width: 20px 20px 0 0;
+  border-color: #db2d2e transparent transparent transparent;
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+}
+
+.section-5 .general .chats .about, .section-5 .general .chats-1 .about, .section-5 .general .chats-2 .about, .section-5 .general .chats-3 .about {
+  padding-top: 50px;
+}
+
+.section-5 .general .chats .about h6, .section-5 .general .chats-1 .about h6, .section-5 .general .chats-2 .about h6, .section-5 .general .chats-3 .about h6 {
+  color: white;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.section-5 .general .chats .about span, .section-5 .general .chats-1 .about span, .section-5 .general .chats-2 .about span, .section-5 .general .chats-3 .about span {
+  color: white;
+  font-size: 14px;
+}
+
+.section-5 .general .chats .about img, .section-5 .general .chats-1 .about img, .section-5 .general .chats-2 .about img, .section-5 .general .chats-3 .about img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #db2d2e;
+}
+
+.section-5 .general .chats-1 {
+  opacity: 0.25;
+  margin-left: -10%;
+}
+
+.section-5 .general .chats-2 {
+  margin: 0px 20px;
+}
+
+.section-5 .general .chats-3 {
+  opacity: 0.3;
+  margin-right: -10%;
+}
+
+.section-6 {
+  padding: 70px 0px;
+}
+
+.section-6:hover .befaft::before, .section-6:hover .befaft::after {
+  width: 100px;
+}
+
+.section-6:hover .befaft::after {
+  width: 50px;
+}
+
+.section-6 .text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section-6 .text span {
+  color: #878787;
+  font-size: 14px;
+}
+
+.section-6 .text h1 {
+  color: #323131;
+}
+
+.section-6 .eight-boxes .box {
+  margin: 0px 25px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.section-6 .eight-boxes .box i {
+  font-size: 30px;
+  color: #8e8e8e;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+}
+
+.section-6 .eight-boxes .box h6 {
+  position: relative;
+  font-size: 15.5px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 17px 0px;
+}
+
+.section-6 .eight-boxes .box h6::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background-color: #d70202;
+  left: 50%;
+  top: 85%;
+  -webkit-transform: translate(-50%, 80%);
+          transform: translate(-50%, 80%);
+}
+
+.section-6 .eight-boxes .box p {
+  color: #abaaaa;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .section-1 h2 {
+    font-size: 25px;
+    top: 13%;
+  }
+  .section-1 h1 {
+    font-size: 50px;
+  }
+  .section-1 .road {
+    top: 18%;
+  }
+  .section-1 .car {
+    padding: 150px 0px 60px 0px;
+  }
+  .section-1 .logo {
+    width: 80px;
+    left: 70%;
+    top: 16.5%;
+  }
+  .section-1 .track {
+    top: 38%;
+  }
+  .section-1 a {
+    top: 42%;
+  }
+  .section-2 {
+    width: 100%;
+  }
+  .section-2 .box-3, .section-2 .box-2, .section-2 .box-1, .section-2 .box-2, .section-2 .box-3 {
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 550px;
+  }
+  .section-2 p {
+    width: 90%;
+    margin: auto;
+  }
+  .section-3 {
+    background-image: none;
+    padding-bottom: 0px;
+  }
+  .section-3 .section-3-div {
+    width: 95%;
+    margin: auto;
+  }
+  .section-3 .section-3-div .sign {
+    width: 100%;
+  }
+  .section-3 .section-3-div .numbers {
+    width: 100%;
+  }
+  .section-3 .section-3-div .numbers .number {
+    width: 50%;
+  }
+  .section-3 .section-3-div .numbers .number .stock {
+    width: 60%;
+  }
+  .section-3 .section-3-div .numbers .number .iconcar {
+    width: 40%;
+    float: left;
+  }
+  .section-3 .section-3-div .numbers .number .dealer {
+    width: 60%;
+  }
+  .section-3 .section-3-div .numbers .number .chat {
+    width: 30%;
+  }
+  .section-4 {
+    width: 98%;
+    margin: auto;
+  }
+  .section-4 .text h1 {
+    font-size: 40px;
+  }
+  .section-4 .four-cars .car {
+    width: 46%;
+    margin-bottom: 20px;
+  }
+  .section-5 .general .chats-1 {
+    display: none;
+  }
+  .section-5 .general .chats-3 {
+    display: none;
+  }
+  .section-6 .text h1 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
